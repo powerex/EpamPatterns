@@ -1,3 +1,8 @@
+import task3.model.Language;
+import task3.model.Movie;
+import task3.model.MovieRental;
+import task3.model.VideoQuality;
+
 public class Application {
 
     public static void main(String[] args) {

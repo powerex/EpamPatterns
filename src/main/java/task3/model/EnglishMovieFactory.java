@@ -1,3 +1,5 @@
+package task3.model;
+
 public class EnglishMovieFactory extends MovieFactory {
 
     private EnglishMovieFactory() {}

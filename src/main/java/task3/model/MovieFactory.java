@@ -1,3 +1,5 @@
+package task3.model;
+
 public abstract class MovieFactory {
 
     public static MovieFactory getMovieFactory(Language language) {
