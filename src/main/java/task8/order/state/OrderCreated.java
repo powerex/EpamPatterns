@@ -1,4 +1,6 @@
-package task8;
+package task8.order.state;
+
+import task8.order.Order;
 
 public class OrderCreated implements OrderState {
 
@@ -9,7 +11,7 @@ public class OrderCreated implements OrderState {
     }
 
     public String getCurrentState() {
-        return "task8.Order just created";
+        return "task8.order.Order just created";
     }
 
     public void use() {
@@ -17,7 +19,7 @@ public class OrderCreated implements OrderState {
     }
 
     public void sendToReview() {
-        System.out.println("task8.Order was send to review");
+        System.out.println("task8.order.Order was send to review");
         order.setCurrentState(new OrderRanged(order));
     }
 }

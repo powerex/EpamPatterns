@@ -1,4 +1,6 @@
-package task8;
+package task8.order.state;
+
+import task8.order.Order;
 
 public class OrderTakeAway implements OrderState {
 
@@ -9,7 +11,7 @@ public class OrderTakeAway implements OrderState {
     }
 
     public String getCurrentState() {
-        return "task8.Order is Take Away";
+        return "task8.order.Order is Take Away";
     }
 
     public void use() {

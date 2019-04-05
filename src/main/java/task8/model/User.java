@@ -1,4 +1,7 @@
-package task8;
+package task8.model;
+
+import task8.order.GrantOrder;
+import task8.order.Order;
 
 public class User {
 

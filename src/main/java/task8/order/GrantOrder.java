@@ -1,4 +1,8 @@
-package task8;
+package task8.order;
+
+import task8.order.Order;
+import task8.order.state.OrderCreated;
+import task8.order.state.OrderState;
 
 public class GrantOrder extends Order implements OrderState {
 

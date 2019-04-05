@@ -1,4 +1,4 @@
-package task8;
+package task8.order.state;
 
 public interface OrderState {
 

@@ -1,4 +1,6 @@
-package task8;
+package task8.order;
+
+import task8.order.state.OrderState;
 
 public abstract class Order {
 

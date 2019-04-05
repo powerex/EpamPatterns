@@ -1,4 +1,6 @@
-package task8;
+package task8.order.state;
+
+import task8.order.Order;
 
 public class OrderApproved implements OrderState {
 
@@ -9,7 +11,7 @@ public class OrderApproved implements OrderState {
     }
 
     public String getCurrentState() {
-        return "task8.Order is Approved";
+        return "task8.order.Order is Approved";
     }
 
     public void use() {
