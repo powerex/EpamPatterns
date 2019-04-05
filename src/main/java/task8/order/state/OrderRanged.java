@@ -21,4 +21,8 @@ public class OrderRanged implements OrderState {
     public void sendToReview() {
         System.out.println("The order already in review");
     }
+
+    public void takeOff() {
+        order.setCurrentState(new OrderTakeAway(order));
+    }
 }

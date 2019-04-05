@@ -22,4 +22,9 @@ public class OrderCreated implements OrderState {
         System.out.println("task8.order.Order was send to review");
         order.setCurrentState(new OrderRanged(order));
     }
+
+    public void takeOff() {
+        System.out.println("so fast?");
+        order.setCurrentState(new OrderTakeAway(order));
+    }
 }

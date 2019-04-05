@@ -21,4 +21,8 @@ public class OrderTakeAway implements OrderState {
     public void sendToReview() {
         System.out.println("You can't send to review no active order");
     }
+
+    public void takeOff() {
+        System.out.println("It's already take off");
+    }
 }

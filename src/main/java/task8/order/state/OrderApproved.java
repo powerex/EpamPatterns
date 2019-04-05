@@ -21,4 +21,10 @@ public class OrderApproved implements OrderState {
     public void sendToReview() {
         System.out.println("For what?");
     }
+
+    public void takeOff() {
+        System.out.println("For what, you can use it");
+    }
+
+
 }

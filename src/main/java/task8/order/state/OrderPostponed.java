@@ -11,7 +11,7 @@ public class OrderPostponed implements OrderState {
     }
 
     public String getCurrentState() {
-        return "task8.order.Order is Postponed";
+        return "Order is Postponed";
     }
 
     public void use() {
@@ -19,7 +19,11 @@ public class OrderPostponed implements OrderState {
     }
 
     public void sendToReview() {
-        System.out.println("task8.order.Order was send to review again");
+        System.out.println("Order was send to review again");
         order.setCurrentState(new OrderRanged(order));
+    }
+
+    public void takeOff() {
+        order.setCurrentState(new OrderTakeAway(order));
     }
 }

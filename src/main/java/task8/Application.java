@@ -1,5 +1,6 @@
 package task8;
 
+import task8.model.Commision;
 import task8.model.User;
 import task8.order.GrantOrder;
 
@@ -10,7 +11,7 @@ public class Application {
         User user = new User("Mark");
         user.createOrder();
         user.useOrder();
-        user.sendToReview();
+        Commision.ApproveOrder(user.getOrder());
         user.useOrder();
     }
 

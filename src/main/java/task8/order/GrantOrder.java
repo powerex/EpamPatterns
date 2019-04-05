@@ -21,4 +21,8 @@ public class GrantOrder extends Order implements OrderState {
     public void sendToReview() {
         currentState.sendToReview();
     }
+
+    public void takeOff() {
+        currentState.takeOff();
+    }
 }

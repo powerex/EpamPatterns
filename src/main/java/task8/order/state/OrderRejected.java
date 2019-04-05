@@ -21,4 +21,10 @@ public class OrderRejected implements OrderState {
     public void sendToReview() {
         System.out.println("You can't send to review rejected order");
     }
+
+    public void takeOff() {
+        System.out.println("It's unnecessary action");
+        order.setCurrentState(new OrderTakeAway(order));
+    }
+
 }
