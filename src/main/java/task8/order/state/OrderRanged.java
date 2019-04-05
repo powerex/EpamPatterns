@@ -1,3 +1,5 @@
+package task8;
+
 public class OrderRanged implements OrderState {
 
     private Order order;
@@ -7,7 +9,7 @@ public class OrderRanged implements OrderState {
     }
 
     public String getCurrentState() {
-        return "Order is on ranged";
+        return "task8.Order is on ranged";
     }
 
     public void use() {

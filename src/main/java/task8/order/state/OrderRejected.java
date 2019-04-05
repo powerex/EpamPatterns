@@ -1,3 +1,5 @@
+package task8;
+
 public class OrderRejected implements OrderState {
 
     private Order order;
@@ -7,7 +9,7 @@ public class OrderRejected implements OrderState {
     }
 
     public String getCurrentState() {
-        return "Order is rejected";
+        return "task8.Order is rejected";
     }
 
     public void use() {

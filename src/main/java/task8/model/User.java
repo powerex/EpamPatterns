@@ -1,3 +1,5 @@
+package task8;
+
 public class User {
 
     private String name;

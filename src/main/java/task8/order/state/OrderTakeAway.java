@@ -1,13 +1,15 @@
-public class OrderPostponed implements OrderState {
+package task8;
+
+public class OrderTakeAway implements OrderState {
 
     private Order order;
 
-    public OrderPostponed(Order order) {
+    public OrderTakeAway(Order order) {
         this.order = order;
     }
 
     public String getCurrentState() {
-        return "Order is Postponed";
+        return "task8.Order is Take Away";
     }
 
     public void use() {
@@ -15,7 +17,6 @@ public class OrderPostponed implements OrderState {
     }
 
     public void sendToReview() {
-        System.out.println("Order was send to review again");
-        order.setCurrentState(new OrderRanged(order));
+        System.out.println("You can't send to review no active order");
     }
 }
