@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task6.strategy.Condition</OriginalElement>
+  <nodes>
+    <node x="266.5" y="93.5">task6.strategy.MovingStrategy</node>
+    <node x="-10.5" y="379.0">task6.strategy.Condition</node>
+    <node x="254.0" y="230.0">task6.model.Group</node>
+    <node x="546.5" y="-26.5">task6.model.Vampire</node>
+    <node x="546.5" y="213.5">task6.model.Orc</node>
+    <node x="266.5" y="-26.5">task6.model.Elf</node>
+    <node x="826.5" y="213.5">task6.model.Pegasus</node>
+    <node x="-13.5" y="93.5">task6.model.Harpy</node>
+    <node x="986.5" y="93.5">task6.model.Troll</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task6.model.Elf" target="task6.strategy.MovingStrategy">
+      <point x="0.0" y="26.5" />
+      <point x="0.0" y="-26.5" />
+    </edge>
+    <edge source="task6.model.Vampire" target="task6.strategy.MovingStrategy">
+      <point x="0.0" y="26.5" />
+      <point x="640.0" y="100.0" />
+      <point x="93.5" y="-20.0" />
+    </edge>
+    <edge source="task6.model.Troll" target="task6.strategy.MovingStrategy">
+      <point x="-93.5" y="0.0" />
+      <point x="93.5" y="0.0" />
+    </edge>
+    <edge source="task6.model.Harpy" target="task6.strategy.MovingStrategy">
+      <point x="93.5" y="0.0" />
+      <point x="-93.5" y="0.0" />
+    </edge>
+    <edge source="task6.model.Orc" target="task6.strategy.MovingStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="640.0" y="140.0" />
+      <point x="93.5" y="20.0" />
+    </edge>
+    <edge source="task6.model.Group" target="task6.strategy.MovingStrategy">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="task6.model.Pegasus" target="task6.strategy.MovingStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="920.0" y="130.0" />
+      <point x="93.5" y="10.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="574.0" y="217.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
