@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task5.Factory.FigureFactory</OriginalElement>
+  <nodes>
+    <node x="450.0" y="0.0">task5.figure.extrasize.BigZFigure</node>
+    <node x="706.0" y="0.0">task5.figure.extrasize.BigOFigure</node>
+    <node x="1416.0" y="0.0">task5.figure.common.SFigure</node>
+    <node x="759.5" y="130.0">task5.Factory.FigureFactory</node>
+    <node x="1181.0" y="0.0">task5.figure.common.TFigure</node>
+    <node x="0.0" y="0.0">task5.figure.common.ZFigure</node>
+    <node x="1291.0" y="0.0">task5.figure.extrasize.BigIFigure</node>
+    <node x="948.0" y="0.0">task5.figure.common.LFigure</node>
+    <node x="110.0" y="0.0">task5.figure.common.IFigure</node>
+    <node x="217.0" y="0.0">task5.figure.extrasize.BigLFigure</node>
+    <node x="836.0" y="0.0">task5.figure.common.OFigure</node>
+    <node x="1057.0" y="0.0">task5.figure.extrasize.BigJFigure</node>
+    <node x="578.0" y="0.0">task5.figure.extrasize.BigSFigure</node>
+    <node x="344.0" y="0.0">task5.figure.common.JFigure</node>
+    <node x="1526.0" y="0.0">task5.figure.extrasize.BigTFigure</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigOFigure">
+      <point x="-4.428571428571445" y="-15.0" />
+      <point x="817.0714285714286" y="50.0" />
+      <point x="761.0" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigZFigure">
+      <point x="-22.14285714285711" y="-15.0" />
+      <point x="799.3571428571429" y="70.0" />
+      <point x="504.0" y="70.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.SFigure">
+      <point x="48.714285714285666" y="-15.0" />
+      <point x="870.2142857142857" y="100.0" />
+      <point x="1461.0" y="100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigIFigure">
+      <point x="39.85714285714289" y="-15.0" />
+      <point x="861.3571428571429" y="90.0" />
+      <point x="1343.5" y="90.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigTFigure">
+      <point x="57.571428571428555" y="-15.0" />
+      <point x="879.0714285714286" y="110.0" />
+      <point x="1580.0" y="110.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.LFigure">
+      <point x="13.28571428571422" y="-15.0" />
+      <point x="834.7857142857142" y="60.0" />
+      <point x="992.5" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigSFigure">
+      <point x="-13.285714285714334" y="-15.0" />
+      <point x="808.2142857142857" y="60.0" />
+      <point x="632.0" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.ZFigure">
+      <point x="-57.57142857142867" y="-15.0" />
+      <point x="763.9285714285713" y="110.0" />
+      <point x="45.0" y="110.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigJFigure">
+      <point x="22.14285714285711" y="-15.0" />
+      <point x="843.6428571428571" y="70.0" />
+      <point x="1109.0" y="70.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.IFigure">
+      <point x="-48.71428571428578" y="-15.0" />
+      <point x="772.7857142857142" y="100.0" />
+      <point x="153.5" y="100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.JFigure">
+      <point x="-31.0" y="-15.0" />
+      <point x="790.5" y="80.0" />
+      <point x="387.0" y="80.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.TFigure">
+      <point x="31.0" y="-15.0" />
+      <point x="852.5" y="80.0" />
+      <point x="1226.0" y="80.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.extrasize.BigLFigure">
+      <point x="-39.85714285714289" y="-15.0" />
+      <point x="781.6428571428571" y="90.0" />
+      <point x="270.5" y="90.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="task5.Factory.FigureFactory" target="task5.figure.common.OFigure">
+      <point x="4.428571428571445" y="-15.0" />
+      <point x="825.9285714285714" y="50.0" />
+      <point x="882.0" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="632.5" y="202.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
