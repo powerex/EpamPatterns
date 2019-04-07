@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task9.payment.CommonPayment</OriginalElement>
+  <nodes>
+    <node x="205.5024786024784" y="318.0">task9.payment.InnerPayment</node>
+    <node x="966.5024786024785" y="318.0">task9.payment.PreferentialPyment</node>
+    <node x="1459.6033473283471" y="984.0">task9.operation.Logging</node>
+    <node x="1841.5167643167642" y="615.5">task9.model.Logger</node>
+    <node x="812.7524786024784" y="581.0">task9.operation.Operation</node>
+    <node x="905.0024786024785" y="0.0">task9.payment.Payment</node>
+    <node x="0.0" y="1008.0">task9.operation.Taxes</node>
+    <node x="560.5024786024784" y="318.0">task9.payment.GovernmentalPayment</node>
+    <node x="1048.0533473283472" y="1244.0">task9.model.Bank</node>
+    <node x="1350.5024786024785" y="318.0">task9.payment.CommonPayment</node>
+    <node x="604.0533473283472" y="1008.0">task9.operation.Validate</node>
+    <node x="1101.5533473283472" y="1008.0">task9.operation.BankComission</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task9.model.Bank" target="task9.operation.Validate">
+      <point x="-56.53846153846166" y="-85.0" />
+      <point x="1114.0148857898855" y="1194.0" />
+      <point x="811.0533473283472" y="1194.0" />
+      <point x="69.0" y="61.0" />
+    </edge>
+    <edge source="task9.operation.Taxes" target="task9.payment.CommonPayment">
+      <point x="55.200000000000045" y="-61.0" />
+      <point x="193.20000000000005" y="884.0" />
+      <point x="384.29999999999995" y="884.0" />
+      <point x="384.29999999999995" y="541.0" />
+      <point x="1386.1024786024784" y="541.0" />
+      <point x="-142.4000000000001" y="26.5" />
+    </edge>
+    <edge source="task9.model.Bank" target="task9.operation.BankComission">
+      <point x="0.0" y="-85.0" />
+      <point x="-69.0" y="61.0" />
+    </edge>
+    <edge source="task9.model.Bank" target="task9.operation.Taxes">
+      <point x="-113.0769230769231" y="-85.0" />
+      <point x="1057.476424251424" y="1224.0" />
+      <point x="69.0" y="1224.0" />
+      <point x="-69.0" y="61.0" />
+    </edge>
+    <edge source="task9.operation.Operation" target="task9.payment.Payment">
+      <point x="0.0" y="-96.5" />
+      <point x="950.7524786024784" y="501.0" />
+      <point x="956.0024786024785" y="501.0" />
+      <point x="956.0024786024785" y="298.0" />
+      <point x="1029.7752058752058" y="298.0" />
+      <point x="-27.727272727272748" y="119.0" />
+    </edge>
+    <edge source="task9.operation.BankComission" target="task9.payment.PreferentialPyment">
+      <point x="55.19999999999999" y="-61.0" />
+      <point x="1294.753347328347" y="924.0" />
+      <point x="1474.0058259308257" y="924.0" />
+      <point x="1474.0058259308257" y="431.0" />
+      <point x="1221.3024786024785" y="431.0" />
+      <point x="72.79999999999995" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Validate" target="task9.operation.Operation">
+      <point x="55.19999999999999" y="-61.0" />
+      <point x="797.2533473283472" y="904.0" />
+      <point x="881.7524786024784" y="904.0" />
+      <point x="-69.0" y="96.5" />
+    </edge>
+    <edge source="task9.operation.BankComission" target="task9.payment.InnerPayment">
+      <point x="-110.39999999999998" y="-61.0" />
+      <point x="1129.153347328347" y="834.0" />
+      <point x="527.3" y="834.0" />
+      <point x="527.3" y="481.0" />
+      <point x="373.0024786024784" y="481.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.BankComission" target="task9.payment.GovernmentalPayment">
+      <point x="0.0" y="-61.0" />
+      <point x="1239.5533473283472" y="904.0" />
+      <point x="1242.6024786024784" y="904.0" />
+      <point x="1242.6024786024784" y="441.0" />
+      <point x="830.0024786024784" y="441.0" />
+      <point x="77.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.BankComission" target="task9.operation.Operation">
+      <point x="-55.19999999999999" y="-61.0" />
+      <point x="1184.3533473283471" y="824.0" />
+      <point x="1019.7524786024784" y="824.0" />
+      <point x="69.0" y="96.5" />
+    </edge>
+    <edge source="task9.operation.BankComission" target="task9.payment.CommonPayment">
+      <point x="110.39999999999998" y="-61.0" />
+      <point x="1349.953347328347" y="934.0" />
+      <point x="1738.1605036855033" y="934.0" />
+      <point x="1738.1605036855033" y="401.0" />
+      <point x="1599.7024786024785" y="401.0" />
+      <point x="71.20000000000005" y="26.5" />
+    </edge>
+    <edge source="task9.payment.InnerPayment" target="task9.payment.Payment">
+      <point x="83.75" y="-26.5" />
+      <point x="456.7524786024784" y="268.0" />
+      <point x="946.5933876933875" y="268.0" />
+      <point x="-110.90909090909099" y="119.0" />
+    </edge>
+    <edge source="task9.operation.Validate" target="task9.payment.GovernmentalPayment">
+      <point x="-55.19999999999999" y="-61.0" />
+      <point x="686.8533473283471" y="854.0" />
+      <point x="373.29999999999995" y="854.0" />
+      <point x="373.29999999999995" y="501.0" />
+      <point x="676.0024786024784" y="501.0" />
+      <point x="-77.0" y="26.5" />
+    </edge>
+    <edge source="task9.payment.PreferentialPyment" target="task9.payment.Payment">
+      <point x="91.0" y="-26.5" />
+      <point x="1239.5024786024785" y="298.0" />
+      <point x="1085.2297513297513" y="298.0" />
+      <point x="27.727272727272748" y="119.0" />
+    </edge>
+    <edge source="task9.operation.Logging" target="task9.payment.PreferentialPyment">
+      <point x="0.0" y="-85.0" />
+      <point x="1597.6033473283471" y="924.0" />
+      <point x="1622.0058259308257" y="924.0" />
+      <point x="1622.0058259308257" y="411.0" />
+      <point x="1294.1024786024784" y="411.0" />
+      <point x="145.5999999999999" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Validate" target="task9.payment.CommonPayment">
+      <point x="110.39999999999998" y="-61.0" />
+      <point x="852.4533473283471" y="914.0" />
+      <point x="1331.0058259308257" y="914.0" />
+      <point x="1331.0058259308257" y="561.0" />
+      <point x="1528.5024786024785" y="561.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Logging" target="task9.model.Logger">
+      <point x="118.28571428571422" y="-85.0" />
+      <point x="1715.8890616140613" y="964.0" />
+      <point x="1921.0167643167642" y="964.0" />
+      <point x="-26.5" y="62.0" />
+    </edge>
+    <edge source="task9.payment.CommonPayment" target="task9.payment.Payment">
+      <point x="89.0" y="-26.5" />
+      <point x="1617.5024786024785" y="278.0" />
+      <point x="1140.6842967842967" y="278.0" />
+      <point x="83.18181818181824" y="119.0" />
+    </edge>
+    <edge source="task9.model.Bank" target="task9.payment.Payment">
+      <point x="113.0769230769231" y="-85.0" />
+      <point x="1283.6302704052703" y="1224.0" />
+      <point x="2064.0167643167642" y="1224.0" />
+      <point x="2064.0167643167642" y="258.0" />
+      <point x="1196.138842238842" y="258.0" />
+      <point x="138.6363636363635" y="119.0" />
+    </edge>
+    <edge source="task9.operation.Taxes" target="task9.payment.PreferentialPyment">
+      <point x="0.0" y="-61.0" />
+      <point x="138.0" y="874.0" />
+      <point x="236.29999999999995" y="874.0" />
+      <point x="236.29999999999995" y="511.0" />
+      <point x="1002.9024786024786" y="511.0" />
+      <point x="-145.5999999999999" y="26.5" />
+    </edge>
+    <edge source="task9.model.Bank" target="task9.operation.Operation">
+      <point x="-37.69230769230762" y="-85.0" />
+      <point x="1132.8610396360395" y="1184.0" />
+      <point x="896.5533473283472" y="1184.0" />
+      <point x="896.5533473283472" y="894.0" />
+      <point x="927.7524786024784" y="894.0" />
+      <point x="-23.0" y="96.5" />
+    </edge>
+    <edge source="task9.operation.Operation" target="task9.payment.InnerPayment">
+      <point x="-110.40000000000009" y="-96.5" />
+      <point x="840.3524786024783" y="471.0" />
+      <point x="440.0024786024784" y="471.0" />
+      <point x="67.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Taxes" target="task9.payment.GovernmentalPayment">
+      <point x="-55.200000000000045" y="-61.0" />
+      <point x="82.79999999999995" y="964.0" />
+      <point x="109.14532224532218" y="964.0" />
+      <point x="109.14532224532218" y="491.0" />
+      <point x="599.0024786024784" y="491.0" />
+      <point x="-154.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Operation" target="task9.payment.PreferentialPyment">
+      <point x="55.200000000000045" y="-96.5" />
+      <point x="1005.9524786024784" y="531.0" />
+      <point x="1148.5024786024785" y="531.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Validate" target="task9.payment.PreferentialPyment">
+      <point x="0.0" y="-61.0" />
+      <point x="742.0533473283472" y="844.0" />
+      <point x="664.4024786024784" y="844.0" />
+      <point x="664.4024786024784" y="521.0" />
+      <point x="1075.7024786024785" y="521.0" />
+      <point x="-72.79999999999995" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Validate" target="task9.payment.InnerPayment">
+      <point x="-110.39999999999998" y="-61.0" />
+      <point x="631.6533473283472" y="864.0" />
+      <point x="189.50334732834722" y="864.0" />
+      <point x="189.50334732834722" y="481.0" />
+      <point x="306.0024786024784" y="481.0" />
+      <point x="-67.0" y="26.5" />
+    </edge>
+    <edge source="task9.model.Bank" target="task9.operation.Logging">
+      <point x="37.69230769230762" y="-85.0" />
+      <point x="1208.2456550206548" y="1184.0" />
+      <point x="1528.6033473283471" y="1184.0" />
+      <point x="-69.0" y="85.0" />
+    </edge>
+    <edge source="task9.model.Logger" target="task9.payment.Payment">
+      <point x="0.0" y="-62.0" />
+      <point x="1947.5167643167642" y="268.0" />
+      <point x="1168.4115695115695" y="268.0" />
+      <point x="110.90909090909099" y="119.0" />
+    </edge>
+    <edge source="task9.operation.Logging" target="task9.payment.InnerPayment">
+      <point x="-78.85714285714289" y="-85.0" />
+      <point x="1518.7462044712042" y="804.0" />
+      <point x="1231.6024786024784" y="804.0" />
+      <point x="1231.6024786024784" y="451.0" />
+      <point x="507.0024786024784" y="451.0" />
+      <point x="134.0" y="26.5" />
+    </edge>
+    <edge source="task9.payment.GovernmentalPayment" target="task9.payment.Payment">
+      <point x="-96.25" y="-26.5" />
+      <point x="656.7524786024784" y="278.0" />
+      <point x="974.3206604206603" y="278.0" />
+      <point x="-83.18181818181824" y="119.0" />
+    </edge>
+    <edge source="task9.operation.Taxes" target="task9.payment.InnerPayment">
+      <point x="-110.40000000000009" y="-61.0" />
+      <point x="27.59999999999991" y="964.0" />
+      <point x="38.00247860247828" y="964.0" />
+      <point x="38.00247860247828" y="471.0" />
+      <point x="239.0024786024784" y="471.0" />
+      <point x="-134.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Taxes" target="task9.operation.Operation">
+      <point x="110.40000000000009" y="-61.0" />
+      <point x="248.4000000000001" y="894.0" />
+      <point x="835.7524786024784" y="894.0" />
+      <point x="-115.0" y="96.5" />
+    </edge>
+    <edge source="task9.operation.Logging" target="task9.operation.Operation">
+      <point x="-118.28571428571422" y="-85.0" />
+      <point x="1479.317633042633" y="814.0" />
+      <point x="1065.7524786024783" y="814.0" />
+      <point x="115.0" y="96.5" />
+    </edge>
+    <edge source="task9.operation.Logging" target="task9.payment.GovernmentalPayment">
+      <point x="-39.42857142857133" y="-85.0" />
+      <point x="1558.1747758997758" y="794.0" />
+      <point x="1485.0058259308257" y="794.0" />
+      <point x="1485.0058259308257" y="421.0" />
+      <point x="907.0024786024784" y="421.0" />
+      <point x="154.0" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Logging" target="task9.payment.CommonPayment">
+      <point x="39.42857142857156" y="-85.0" />
+      <point x="1637.0319187569187" y="944.0" />
+      <point x="1822.5167643167642" y="944.0" />
+      <point x="1822.5167643167642" y="391.0" />
+      <point x="1670.9024786024786" y="391.0" />
+      <point x="142.4000000000001" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Operation" target="task9.payment.CommonPayment">
+      <point x="110.40000000000009" y="-96.5" />
+      <point x="1061.1524786024784" y="551.0" />
+      <point x="1457.3024786024785" y="551.0" />
+      <point x="-71.20000000000005" y="26.5" />
+    </edge>
+    <edge source="task9.operation.Operation" target="task9.payment.GovernmentalPayment">
+      <point x="-55.200000000000045" y="-96.5" />
+      <point x="895.5524786024783" y="461.0" />
+      <point x="753.0024786024784" y="461.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="task9.model.Bank" target="task9.model.Logger">
+      <point x="75.38461538461547" y="-85.0" />
+      <point x="1245.9379627129626" y="1204.0" />
+      <point x="1974.0167643167642" y="1204.0" />
+      <point x="26.5" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6816734879490678" x="1089.5" y="755.7484989993328" />
+  <SelectedNodes>
+    <node>task9.payment.CommonPayment</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
