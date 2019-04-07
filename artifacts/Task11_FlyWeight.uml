@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task11.Bacterium</OriginalElement>
+  <nodes>
+    <node x="0.0" y="267.0">task11.Tube</node>
+    <node x="18.0" y="0.0">task11.Bacterium</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task11.Tube" target="task11.Bacterium">
+      <point x="102.0" y="-62.0" />
+      <point x="255.0" y="242.0" />
+      <point x="243.0" y="242.0" />
+      <point x="90.0" y="108.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="153.0" y="422.5" />
+  <SelectedNodes>
+    <node>task11.Bacterium</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
