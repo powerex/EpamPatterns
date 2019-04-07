@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>task11p5.model.ProlongedReceipt</OriginalElement>
+  <nodes>
+    <node x="0.0" y="161.0">task11p5.model.Receipt</node>
+    <node x="246.00000000000003" y="149.0">task11p5.model.ProlongedReceipt</node>
+    <node x="266.1666666666667" y="0.0">task11p5.model.ReceiptBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task11p5.model.Receipt" target="task11p5.model.ReceiptBehavior">
+      <point x="0.0" y="-61.5" />
+      <point x="113.0" y="124.0" />
+      <point x="283.5416666666667" y="124.0" />
+      <point x="-52.125" y="49.5" />
+    </edge>
+    <edge source="task11p5.model.ProlongedReceipt" target="task11p5.model.ReceiptBehavior">
+      <point x="0.0" y="-73.5" />
+      <point x="380.5" y="124.0" />
+      <point x="353.0416666666667" y="124.0" />
+      <point x="17.375" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6000000000000005" x="257.5" y="147.99999999999997" />
+  <SelectedNodes>
+    <node>task11p5.model.ProlongedReceipt</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
