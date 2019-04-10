@@ -1,6 +1,7 @@
 package task2.model;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Expression implements SubExpression {
@@ -9,13 +10,11 @@ public class Expression implements SubExpression {
 
     public Expression(SubExpression ... exprs) {
         this.exprs = new ArrayList<SubExpression>();
-        for (SubExpression expr: exprs) {
-            this.exprs.add(expr);
-        }
+        this.exprs.addAll(Arrays.asList(exprs));
     }
 
     public Double value() {
-        Double result = new Double(0);
+        Double result = (double) 0;
         for (SubExpression expr: exprs) {
             result += expr.value();
         }
