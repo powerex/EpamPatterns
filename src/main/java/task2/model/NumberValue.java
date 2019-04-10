@@ -3,9 +3,11 @@ package task2.model;
 public class NumberValue implements SubExpression {
 
     private Double value;
+    private Operation operation;
 
-    public NumberValue(Double value) {
+    public NumberValue(Double value, Operation operation) {
         this.value = value;
+        this.operation = operation;
     }
 
     public void add(SubExpression expr) {
