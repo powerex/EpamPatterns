@@ -14,11 +14,6 @@ public class SingleExpression implements Expression {
     }
 
     @Override
-    public String getString() {
-        return number;
-    }
-
-    @Override
     public String toString() {
         return number;
     }

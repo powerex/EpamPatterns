@@ -19,11 +19,6 @@ public class SimpleExpression implements Expression {
     }
 
     @Override
-    public String getString() {
-        return expression;
-    }
-
-    @Override
     public String toString() {
         return flow.toString();
     }
