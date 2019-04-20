@@ -1,8 +1,9 @@
 package task2.model2;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import task2.model.Expr;
+
+import javax.swing.text.html.HTMLDocument;
+import java.util.*;
 
 public class Parser {
 
@@ -60,6 +61,7 @@ public class Parser {
                         break;
                 }
             }
+
             return new CompoundExpression(flow);
         }
     }

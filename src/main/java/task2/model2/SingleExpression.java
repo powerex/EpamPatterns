@@ -14,6 +14,11 @@ public class SingleExpression implements Expression {
     }
 
     @Override
+    public Expression toPolishNotation() {
+        return new SingleExpression(this.number);
+    }
+
+    @Override
     public String toString() {
         return number;
     }
